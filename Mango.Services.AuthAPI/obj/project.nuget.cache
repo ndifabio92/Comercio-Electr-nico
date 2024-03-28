@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXFJiLB5IepNl887tIA7SPkSTxh+MZhNn8svdTkn45hzlHMfQWT/RUAKJ/95vPegxeDhC/hVJ3ckete3vTCyvA==",
+  "dgSpecHash": "RMNXS9UhCWpsUk1BildR+1tzqI6yTrmXmmGk0f7JtIWldwVAypCGCVuv8KOy0kVcoiJmMmlfd2a5IkGfmN7esA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+  "projectFilePath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ndifabio\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ndifabio\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

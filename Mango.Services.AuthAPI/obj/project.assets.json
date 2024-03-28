@@ -5000,11 +5000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
       "projectName": "Mango.Services.AuthAPI",
-      "projectPath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+      "projectPath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
       "packagesPath": "C:\\Users\\ndifabio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.AuthAPI\\obj\\",
+      "outputPath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.AuthAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

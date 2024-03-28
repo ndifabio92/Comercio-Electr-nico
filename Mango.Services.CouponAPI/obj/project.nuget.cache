@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lNL/eK/FlLp9anxd3EiKLtDqmOKQmdiP/dsX+oahmfTP4R10xLfCgYBu9PDLWTOsmg/j2cZhdCXAoxSY+WTN4Q==",
+  "dgSpecHash": "x59Y2zCNenTuIoVmuBi2uRLNv+g8pLYg2TKihy74Z2X8uJVI5SOh1LC+oFbfhMuJN6cDYJ6CyuMfj4VmV74V9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+  "projectFilePath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ndifabio\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ndifabio\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

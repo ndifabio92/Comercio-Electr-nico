@@ -4570,11 +4570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
       "projectName": "Mango.Services.CouponAPI",
-      "projectPath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+      "projectPath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
       "packagesPath": "C:\\Users\\ndifabio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.Services.CouponAPI\\obj\\",
+      "outputPath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.Services.CouponAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
