@@ -22,8 +22,8 @@ namespace Mango.Services.CouponAPI.Controllers
         [ProducesResponseType(typeof(List<CouponDto>), 200)]
         public async Task<ActionResult> GetCoupons()
         {
-            var coupons = await _couponBusinees.GetCoupons();
-            return Ok(coupons);
+            var result = await _couponBusinees.GetCoupons();
+            return Ok(result);
         }
 
         [HttpGet]
@@ -31,8 +31,8 @@ namespace Mango.Services.CouponAPI.Controllers
         [ProducesResponseType(typeof(CouponDto), 200)]
         public async Task<ActionResult> GetCouponById(int id)
         {
-            var coupons = await _couponBusinees.GetCouponById(id);
-            return Ok(coupons);
+            var result = await _couponBusinees.GetCouponById(id);
+            return Ok(result);
         }
 
         [HttpGet]
@@ -40,8 +40,8 @@ namespace Mango.Services.CouponAPI.Controllers
         [ProducesResponseType(typeof(CouponDto), 200)]
         public async Task<ActionResult> GetCouponByCode(string code)
         {
-            var coupons = await _couponBusinees.GetCouponByCode(code);
-            return Ok(coupons);
+            var result = await _couponBusinees.GetCouponByCode(code);
+            return Ok(result);
         }
 
         [HttpPost]
@@ -49,8 +49,8 @@ namespace Mango.Services.CouponAPI.Controllers
         [ProducesResponseType(typeof(CouponDto), 200)]
         public async Task<ActionResult> Save(CouponDto coupon)
         {
-            var coupons = await _couponBusinees.Create(coupon);
-            return Ok(coupons);
+            var result = await _couponBusinees.Create(coupon);
+            return Ok(result);
         }
 
         [HttpPut]
@@ -58,8 +58,8 @@ namespace Mango.Services.CouponAPI.Controllers
         [ProducesResponseType(typeof(CouponDto), 200)]
         public async Task<ActionResult> Updated(CouponDto coupon)
         {
-            var coupons = await _couponBusinees.Update(coupon);
-            return Ok(coupons);
+            var result = await _couponBusinees.Update(coupon);
+            return Ok(result);
         }
 
         [HttpDelete]
@@ -68,8 +68,8 @@ namespace Mango.Services.CouponAPI.Controllers
         [ProducesResponseType(typeof(CouponDto), 200)]
         public async Task<ActionResult> Delete(int id)
         {
-            var coupons = await _couponBusinees.Delete(id);
-            return Ok(coupons);
+            var result = await _couponBusinees.Delete(id);
+            return Ok(result);
         }
     }
 }

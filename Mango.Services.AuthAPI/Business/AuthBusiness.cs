@@ -43,23 +43,24 @@ namespace Mango.Services.AuthAPI.Business
             var user = await _dataContext.ApplicationUsers.FirstOrDefaultAsync(x => x.UserName.ToLower() == loginDto.UserName.ToLower());
             bool isValid = await _userManager.CheckPasswordAsync(user, loginDto.Password);
 
-            if(user != null && isValid)
+            if(user == null && !isValid)
             {
-                var token = _jwtTokenGenerator.GenerateToken(user);
-                return new LoginResponseDto()
-                {
-                    User = new UserDto()
-                    {
-                        Id = user.Id,
-                        Email = user.Email,
-                        Name = user.Name,
-                        PhoneNumber = user.PhoneNumber
-                    },
-                    Token = token
-                };
+                return new LoginResponseDto();
             }
 
-            return new LoginResponseDto();
+            var roles = await _userManager.GetRolesAsync(user);
+            var token = _jwtTokenGenerator.GenerateToken(user,roles);
+            return new LoginResponseDto()
+            {
+                User = new UserDto()
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    Name = user.Name,
+                    PhoneNumber = user.PhoneNumber
+                },
+                Token = token
+            };
         }
 
         public async Task<UserDto> Register(RegistrationDto registrationDto)

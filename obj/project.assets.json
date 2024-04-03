@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.csproj",
+      "projectUniqueName": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.csproj",
       "projectName": "Mango",
-      "projectPath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\Mango.csproj",
+      "projectPath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\Mango.csproj",
       "packagesPath": "C:\\Users\\ndifabio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndifabio\\Desktop\\Cursos\\Minimal-API-with-.NET-Core (.NET 7)\\Mango\\obj\\",
+      "outputPath": "C:\\Users\\ndifabio\\Desktop\\Comercio-Electronico\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,7 +48,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -73,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
