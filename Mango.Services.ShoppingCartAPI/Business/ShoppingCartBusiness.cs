@@ -76,7 +76,6 @@ namespace Mango.Services.ShoppingCartAPI.Business
                     Discount = cart.CartHeader.Discount,
                     UserId = cart.CartHeader.UserId,
                     Total = cart.CartHeader.Total,
-                    Created = DateTime.UtcNow,
                 };
 
                 _dataContext.CartHeaders.Add(cartHeader);
@@ -88,7 +87,6 @@ namespace Mango.Services.ShoppingCartAPI.Business
                     Count = cart.CartDetails.FirstOrDefault().Count,
                     Product = cart.CartDetails.FirstOrDefault().Product,
                     ProductId = cart.CartDetails.FirstOrDefault().ProductId,
-                    Created = DateTime.UtcNow,
                 };
 
                 _dataContext.CartDetails.Add(cartDetail);
@@ -107,7 +105,7 @@ namespace Mango.Services.ShoppingCartAPI.Business
                         CartHeaderId = headerDb.Id,
                         Count = cart.CartDetails.FirstOrDefault().Count,
                         Product = cart.CartDetails.FirstOrDefault().Product,
-                        Created = DateTime.UtcNow,
+   
                     };
 
                     _dataContext.CartDetails.Add(cartDetail);
@@ -120,7 +118,6 @@ namespace Mango.Services.ShoppingCartAPI.Business
                         CartHeaderId = cart.CartDetails.FirstOrDefault().CartHeaderId += detailDb.CartHeaderId,
                         Count = cart.CartDetails.FirstOrDefault().Count += detailDb.Count,
                         Product = cart.CartDetails.FirstOrDefault().Product,
-                        Updated = DateTime.UtcNow,
                     };
 
                     _dataContext.CartDetails.Update(cartDetailUpdate);

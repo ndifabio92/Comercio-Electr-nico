@@ -4,9 +4,10 @@ namespace Mango.Services.ShoppingCartAPI.Models.Base
 {
     public abstract class EntityBase
     {
-        [Key]
         public int Id { get; set; }
-        public DateTime? Updated { get; set; }
-        public DateTime Created { get; set; } = DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public string CreatedBy { get; set; } = default!;
+        public DateTime UpdatedDate { get; set; } = DateTime.Now;
+        public string UpdatedBy { get; set; } = default!;
     }
 }
